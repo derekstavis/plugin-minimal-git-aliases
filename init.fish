@@ -9,4 +9,5 @@ function init -a path --on-event init_minimal-git-aliases
   abbr gpsh git push
   abbr grst git reset
   abbr grbs git rebase
+  abbr glog git log
 end
