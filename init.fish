@@ -1,13 +1,23 @@
 function init -a path --on-event init_minimal-git-aliases
-  # Two character series
-  abbr gc git commit
+  # general commands
   abbr gs git status
   abbr gf git fetch
   abbr gp git pull
+  abbr gl git log
+  abbr gr git reset
 
-  # Four character series
+  # git push
   abbr gpsh git push
-  abbr grst git reset
-  abbr grbs git rebase
-  abbr glog git log
+  abbr gpom git push origin master
+
+  # git commit
+  abbr gc git commit
+  abbr gc-m git commit -m
+  abbr gc-am git commit --am
+
+  # git rebase
+  abbr grb git rebase
+  abbr grb-c git rebase --continue
+  abbr grb-i git rebase --i
+
 end
