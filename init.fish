@@ -20,4 +20,10 @@ function init -a path --on-event init_minimal-git-aliases
   abbr grb-c git rebase --continue
   abbr grb-i git rebase --i
 
+  # git remote
+  abbr grt git remote
+  abbr grt-v git remote -v
+  abbr grt-a git remote add
+  abbr grt-r git remote rm
+
 end
